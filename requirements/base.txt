@@ -1,0 +1,11 @@
+django
+psycopg2-binary
+python-environ
+django-jazzmin
+django-resized
+redis
+selenium==4.9.1
+celery==5.2.7
+webdriver-manager==3.8.6
+beautifulsoup4==4.12.2
+django-celery-beat==2.5.0
