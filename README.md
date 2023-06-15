@@ -25,6 +25,12 @@ $ python3 manage.py createsuperuser
 
 ![Screenshot from 2023-06-15 16-04-35](https://github.com/tim646/instagram-scrape/assets/91428417/a12210f9-6f5b-4ade-bc41-f4ae5e285eec)
 
+## Run the scraper 
+**$ python3 manage.py shell**  
+**>> from apps.instagram.scrape import web_scraping**  
+**>> web_scraping()**  
+
 ## Run the Celery worker
 
 **$ celery -A core/config worker --beat -l info**    
+
